@@ -1,0 +1,24 @@
+{
+  "product": "TapeStation 胶带机控制系统",
+  "version": "1.1.38",
+  "date": "2026-10-10",
+  "downloadBase": "https://github.com/taizhizhuo1989/TapeStation/releases/download/v1.1.38/",
+  "pageUrl": "https://taizhizhuo1989.github.io/TapeStation/",
+  "installer": {
+    "file": "TapeStation-win32-x64-user-1.1.38.exe",
+    "size": 84927500,
+    "sha256": "b333cf9fa705c4ffd6312d32820c6187dc29e4ed4fefd9cb770d5ff016a56483"
+  },
+  "notes": {
+    "zh": [
+      "串口连接优化：兼容更多 CH340 / FTDI 设备，识别更稳定",
+      "识别模式新增手动兜底：取走胶带后可一键进入下一长度",
+      "安装版支持后台自动更新"
+    ],
+    "en": [
+      "Serial connection: improved compatibility and detection for CH340 / FTDI devices",
+      "Scan mode: manual fallback to move to the next length after the tape is removed",
+      "Installer now supports automatic background updates"
+    ]
+  }
+}
