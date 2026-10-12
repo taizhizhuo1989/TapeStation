@@ -1,24 +1,24 @@
 {
   "product": "TapeStation 胶带机控制系统",
-  "version": "1.1.38",
+  "version": "1.1.39",
   "date": "2026-10-10",
-  "downloadBase": "https://github.com/taizhizhuo1989/TapeStation/releases/download/v1.1.38/",
+  "downloadBase": "https://github.com/taizhizhuo1989/TapeStation/releases/download/v1.1.39/",
   "pageUrl": "https://taizhizhuo1989.github.io/TapeStation/",
   "installer": {
-    "file": "TapeStation-win32-x64-user-1.1.38.exe",
-    "size": 84927388,
-    "sha256": "dca83f5d35373162e469bd26d111f46693041b5caa236cd135650e955d63f18e"
+    "file": "TapeStation-win32-x64-user-1.1.39.exe",
+    "size": 77679339,
+    "sha256": "4434c1719273993dc1a93d021217184fd8ea5e0147641d5e331d9d9aa138e7e3"
   },
   "notes": {
     "zh": [
-      "串口连接优化：兼容更多 CH340 / FTDI 设备，识别更稳定",
-      "识别模式新增手动兜底：取走胶带后可一键进入下一长度",
+      "新增授权码激活：首次使用需设置管理密码并输入激活码",
+      "首启设置界面跟随系统语言自动切换中文 / 英文",
       "安装版支持后台自动更新"
     ],
     "en": [
-      "Serial connection: improved compatibility and detection for CH340 / FTDI devices",
-      "Scan mode: manual fallback to move to the next length after the tape is removed",
-      "Installer now supports automatic background updates"
+      "Added license activation: set an admin password and enter an activation code on first run",
+      "First-run setup UI follows the system language (Chinese / English)",
+      "Installer supports automatic background updates"
     ]
   }
 }
