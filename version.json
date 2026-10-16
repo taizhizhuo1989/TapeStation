@@ -1,23 +1,23 @@
 {
   "product": "TapeStation 胶带机控制系统",
-  "version": "1.1.39",
-  "date": "2026-10-10",
-  "downloadBase": "https://github.com/taizhizhuo1989/TapeStation/releases/download/v1.1.39/",
+  "version": "1.1.40",
+  "date": "2026-10-16",
+  "downloadBase": "https://github.com/taizhizhuo1989/TapeStation/releases/download/v1.1.40/",
   "pageUrl": "https://taizhizhuo1989.github.io/TapeStation/",
   "installer": {
-    "file": "TapeStation-win32-x64-user-1.1.39.exe",
-    "size": 77679339,
-    "sha256": "4434c1719273993dc1a93d021217184fd8ea5e0147641d5e331d9d9aa138e7e3"
+    "file": "TapeStation-win32-x64-user-1.1.40.exe",
+    "size": 77679209,
+    "sha256": "1b1abe1d06541971ffa91a7a6be3111a654b2ba784b9f746141018126f6bb5e2"
   },
   "notes": {
     "zh": [
+      "启动界面启动按键支持键盘回车键激活（与点击等效）",
       "新增授权码激活：首次使用需设置管理密码并输入激活码",
-      "首启设置界面跟随系统语言自动切换中文 / 英文",
       "安装版支持后台自动更新"
     ],
     "en": [
+      "Start button on the launch screen now supports the keyboard Enter key (same as a click)",
       "Added license activation: set an admin password and enter an activation code on first run",
-      "First-run setup UI follows the system language (Chinese / English)",
       "Installer supports automatic background updates"
     ]
   }
