@@ -1,7 +1,9 @@
 {
   "version": 1,
   "all": false,
-  "codes": [],
+  "codes": [
+    "5ECABB82CABB428C"
+  ],
   "machineIds": [],
   "message": {
     "zh": "本软件授权已撤销，请联系供应商。",
