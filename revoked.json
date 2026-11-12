@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "all": false,
+  "codes": [],
+  "machineIds": [],
+  "message": {
+    "zh": "本软件授权已撤销，请联系供应商。",
+    "en": "This license has been revoked. Please contact your supplier."
+  },
+  "note": "停用：把该客户的激活码加入 codes（可带/不带连字符），或把客户提供的本机识别码加入 machineIds。改完上传到 GitHub Pages 根目录 revoked.json，客户端启动或 30 分钟内生效。all=true 为全局停用（慎用）。"
+}

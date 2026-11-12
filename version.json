@@ -1,24 +1,24 @@
 {
   "product": "TapeStation 胶带机控制系统",
-  "version": "1.1.40",
-  "date": "2026-10-16",
-  "downloadBase": "https://github.com/taizhizhuo1989/TapeStation/releases/download/v1.1.40/",
+  "version": "1.1.41",
+  "date": "2026-11-12",
+  "downloadBase": "https://github.com/taizhizhuo1989/TapeStation/releases/download/v1.1.41/",
   "pageUrl": "https://taizhizhuo1989.github.io/TapeStation/",
   "installer": {
-    "file": "TapeStation-win32-x64-user-1.1.40.exe",
-    "size": 77679209,
-    "sha256": "1b1abe1d06541971ffa91a7a6be3111a654b2ba784b9f746141018126f6bb5e2"
+    "file": "TapeStation-win32-x64-user-1.1.41.exe",
+    "size": 77682223,
+    "sha256": "f3f1c5170df0258bc07ee8b3e43f500cfa07e640f62602a8b7c1edbee0f9d474"
   },
   "notes": {
     "zh": [
-      "启动界面启动按键支持键盘回车键激活（与点击等效）",
-      "新增授权码激活：首次使用需设置管理密码并输入激活码",
-      "安装版支持后台自动更新"
+      "优化授权校验流程，提升软件稳定性",
+      "安装版支持后台自动更新",
+      "启动界面启动按键支持键盘回车键激活"
     ],
     "en": [
-      "Start button on the launch screen now supports the keyboard Enter key (same as a click)",
-      "Added license activation: set an admin password and enter an activation code on first run",
-      "Installer supports automatic background updates"
+      "Improved license verification and stability",
+      "Installer supports automatic background updates",
+      "Start button on the launch screen now supports the keyboard Enter key"
     ]
   }
 }
