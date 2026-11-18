@@ -1,24 +1,24 @@
 {
   "product": "TapeStation 胶带机控制系统",
-  "version": "1.1.41",
-  "date": "2026-11-12",
-  "downloadBase": "https://github.com/taizhizhuo1989/TapeStation/releases/download/v1.1.41/",
+  "version": "1.1.43",
+  "date": "2026-11-18",
+  "downloadBase": "https://github.com/taizhizhuo1989/TapeStation/releases/download/v1.1.43/",
   "pageUrl": "https://taizhizhuo1989.github.io/TapeStation/",
   "installer": {
-    "file": "TapeStation-win32-x64-user-1.1.41.exe",
-    "size": 77682223,
-    "sha256": "f3f1c5170df0258bc07ee8b3e43f500cfa07e640f62602a8b7c1edbee0f9d474"
+    "file": "TapeStation-win32-x64-user-1.1.43.exe",
+    "size": 77683912,
+    "sha256": "7789f4e2b6950ef3d336e3a923915d0e66ec219e7516cfeaf1a36be340891c4c"
   },
   "notes": {
     "zh": [
-      "优化授权校验流程，提升软件稳定性",
-      "安装版支持后台自动更新",
-      "启动界面启动按键支持键盘回车键激活"
+      "识别模式扫码优化：条码以 L 开头时自动定位到第一个长度框",
+      "连续扫码无需手动点击输入框，扫码即填",
+      "安装版支持后台自动更新"
     ],
     "en": [
-      "Improved license verification and stability",
-      "Installer supports automatic background updates",
-      "Start button on the launch screen now supports the keyboard Enter key"
+      "Recognition mode: barcodes starting with L auto-focus the first length field",
+      "Continuous scanning works without clicking the input field first",
+      "Installer supports automatic background updates"
     ]
   }
 }

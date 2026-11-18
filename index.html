@@ -55,8 +55,8 @@
 
   <div class="card">
     <div class="ver">
-      <span id="t-latest">最新版本</span> <b id="verNum">1.1.41</b>
-      <span class="pill" id="verDate">2026-11-12</span>
+      <span id="t-latest">最新版本</span> <b id="verNum">1.1.43</b>
+      <span class="pill" id="verDate">2026-11-13</span>
     </div>
     <div class="dl">
       <a class="btn" id="dlInstaller" href="#"><span id="t-btn">Windows 安装版</span><small id="t-installer">安装到系统 · 支持自动更新</small></a>
@@ -88,17 +88,17 @@
 // ===== 与 version.json 同步的兜底数据（version.json 拉取失败时仍可用） =====
 // notes 为双语对象：{zh:[...], en:[...]}，只写软件功能，不涉及密码/授权细节。
 var FALLBACK = {
-  version:"1.1.41", date:"2026-11-12",
-  downloadBase:"https://github.com/taizhizhuo1989/TapeStation/releases/download/v1.1.41/",
+  version:"1.1.43", date:"2026-11-18",
+  downloadBase:"https://github.com/taizhizhuo1989/TapeStation/releases/download/v1.1.43/",
   pageUrl:"https://taizhizhuo1989.github.io/TapeStation/",
-  installer:{file:"TapeStation-win32-x64-user-1.1.41.exe", size:0, sha256:""},
+  installer:{file:"TapeStation-win32-x64-user-1.1.43.exe", size:0, sha256:""},
   notes:{
-    zh:["优化授权校验流程，提升软件稳定性",
-        "安装版支持后台自动更新",
-        "启动界面启动按键支持键盘回车键激活"],
-    en:["Improved license verification and stability",
-        "Installer supports automatic background updates",
-        "Start button on the launch screen now supports the keyboard Enter key"]
+    zh:["识别模式扫码优化：条码以 L 开头时自动定位到第一个长度框",
+        "连续扫码无需手动点击输入框，扫码即填",
+        "安装版支持后台自动更新"],
+    en:["Recognition mode: barcodes starting with L auto-focus the first length field",
+        "Continuous scanning works without clicking the input field first",
+        "Installer supports automatic background updates"]
   }
 };
 // 语言：优先用户手动选择；否则跟随系统/浏览器语言（zh* → 中文，其余 → 英文）
