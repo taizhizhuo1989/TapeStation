@@ -1,22 +1,22 @@
 {
   "product": "TapeStation 胶带机控制系统",
-  "version": "1.1.43",
-  "date": "2026-11-18",
-  "downloadBase": "https://github.com/taizhizhuo1989/TapeStation/releases/download/v1.1.43/",
+  "version": "1.1.44",
+  "date": "2026-11-20",
+  "downloadBase": "https://github.com/taizhizhuo1989/TapeStation/releases/download/v1.1.44/",
   "pageUrl": "https://taizhizhuo1989.github.io/TapeStation/",
   "installer": {
-    "file": "TapeStation-win32-x64-user-1.1.43.exe",
-    "size": 77683912,
-    "sha256": "7789f4e2b6950ef3d336e3a923915d0e66ec219e7516cfeaf1a36be340891c4c"
+    "file": "TapeStation-win32-x64-user-1.1.44.exe",
+    "size": 77683961,
+    "sha256": "ac9a2eb9375bef5110452c9f26312b4630cecba532f794b1b90abee7e770dafd"
   },
   "notes": {
     "zh": [
-      "识别模式扫码优化：条码以 L 开头时自动定位到第一个长度框",
+      "识别模式优化：未及时取走胶带时保持运行，不再自动停止",
       "连续扫码无需手动点击输入框，扫码即填",
       "安装版支持后台自动更新"
     ],
     "en": [
-      "Recognition mode: barcodes starting with L auto-focus the first length field",
+      "Recognition mode: keeps running if tape is not taken in time, no auto-stop",
       "Continuous scanning works without clicking the input field first",
       "Installer supports automatic background updates"
     ]
